@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #003583; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0%;
+}
+form{
+    background-color: white;
+    width: 40rem;
+    height: 40rem;
+    border-radius: 10%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+form > div >input{
+    background-color: rgb(56, 136, 136);
+    border-radius: 1rem;
+    width: 15rem;
+    height: 2rem;
+    text-align: center;
+}
+
+form > div{
+     margin-top: 10rem;
+}
+form > div > button{
+    background-color: #0366fc; 
+    border-radius: 1rem;
+    width:5rem;
+    height:2rem;
+}
+
+form > h1{
+    font-family: 'Shadows Into Light', cursive;
+    margin-top:2rem;
+    font-size: 4rem;
+} 
+
+.div-not-entered{
+    color: red ;
+}
